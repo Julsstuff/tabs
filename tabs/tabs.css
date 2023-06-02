@@ -1,0 +1,67 @@
+.tab:not(.active){
+    display: none;
+}
+
+
+body {
+    background-color: #607d3b;
+}
+
+.name {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+}
+
+.bear, .turtle, .meerkats{
+    width: 800px;
+    height: 600px;
+    position: sticky;
+    left: 30%;
+    top: 250px;
+    border: 10px outset #728c69;
+}
+
+.menu {
+    font-family: "Lucida Console", "Courier New", monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+@media ( max-width: 1024px) {
+    .bear, .turtle, .meerkats{
+        width: 800px;
+        height: 600px;
+        position: sticky;
+        left: 10%;
+        top: 250px;
+    }
+}
+@media ( max-width: 768px) {
+    .bear, .turtle, .meerkats{
+        width: 700px;
+        height: 500px;
+        position: sticky;
+        left: 25px;
+        top: 250px;
+    }
+}
+@media ( max-width: 425px) {
+    .bear, .turtle, .meerkats{
+        width: 400px;
+        height: 300px;
+        position: sticky;
+        left: 15px;
+        top: 500px;
+    }
+}
+@media ( max-width: 320px) {
+    .bear, .turtle, .meerkats{
+        width: 270px;
+        height: 170px;
+        position: sticky;
+        left: 15px;
+        top: 500px;
+    }
+}
